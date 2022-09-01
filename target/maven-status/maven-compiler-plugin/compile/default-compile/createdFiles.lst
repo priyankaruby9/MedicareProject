@@ -1,0 +1,5 @@
+medicareBase\TestBase.class
+medicarePages\HomePage.class
+medicarePages\SignUpPage.class
+medicarePages\LoginPage.class
+medicareUtil\TestUtil.class
