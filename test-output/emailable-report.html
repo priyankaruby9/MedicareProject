@@ -9,13 +9,33 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">53,478</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">59,351</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">medicareTestCases.HomePageTest</td><td><a href="#m0">verifyHomePageTitleTest</a></td><td rowspan="1">1662566207601</td><td rowspan="1">30</td></tr><tr class="passedodd"><td rowspan="2">medicareTestCases.LoginPageTest</td><td><a href="#m1">loginPageTitleTest</a></td><td rowspan="1">1662566213224</td><td rowspan="1">152</td></tr><tr class="passedodd"><td><a href="#m2">loginTest</a></td><td rowspan="1">1662566217685</td><td rowspan="1">1981</td></tr><tr class="passedeven"><td rowspan="1">medicareTestCases.SignupPageTest</td><td><a href="#m3">SignUpPageHeadingTitle</a></td><td rowspan="1">1662566223107</td><td rowspan="1">30450</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">medicareTestCases.LoginPageTest</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1662567361599</td><td rowspan="1">1235</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">medicareTestCases.HomePageTest</td><td><a href="#m1">verifyHomePageTitleTest</a></td><td rowspan="1">1662567351937</td><td rowspan="1">50</td></tr><tr class="passedodd"><td rowspan="1">medicareTestCases.LoginPageTest</td><td><a href="#m2">loginPageTitleTest</a></td><td rowspan="1">1662567357488</td><td rowspan="1">52</td></tr><tr class="passedeven"><td rowspan="1">medicareTestCases.SignupPageTest</td><td><a href="#m3">SignUpPageHeadingTitle</a></td><td rowspan="1">1662567369062</td><td rowspan="1">31298</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">medicareTestCases.HomePageTest#verifyHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">medicareTestCases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">medicareTestCases.LoginPageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">medicareTestCases.LoginPageTest#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;li id=&quot;login&quot;&gt;...&lt;/li&gt; is not clickable at point (1161, 32). Other element would receive the click: &lt;div class=&quot;se-pre-con&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=104.0.5112.80)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GQ1HDIT&apos;, ip: &apos;192.168.2.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.80, chrome: {chromedriverVersion: 104.0.5112.20 (9ac43f954ebb..., userDataDir: C:\Users\Singh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ca6079a53d0ec9eeae8e898147ea296
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at medicarePages.LoginPage.login(LoginPage.java:35)
+	at medicareTestCases.LoginPageTest.loginTest(LoginPageTest.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">medicareTestCases.HomePageTest#verifyHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">medicareTestCases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">medicareTestCases.SignupPageTest#SignUpPageHeadingTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

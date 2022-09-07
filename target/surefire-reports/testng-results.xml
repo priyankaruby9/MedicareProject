@@ -2,60 +2,60 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="56961" started-at="2022-09-07T12:07:56 EDT" finished-at="2022-09-07T12:08:53 EDT">
+  <suite name="Suite" duration-ms="55232" started-at="2022-09-07T12:17:13 EDT" finished-at="2022-09-07T12:18:08 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="56961" started-at="2022-09-07T12:07:56 EDT" finished-at="2022-09-07T12:08:53 EDT">
+    <test name="Test" duration-ms="55232" started-at="2022-09-07T12:17:13 EDT" finished-at="2022-09-07T12:18:08 EDT">
       <class name="medicareTestCases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:medicareTestCases.LoginPageTest@27a8c74e]" name="setUp" is-config="true" duration-ms="3836" started-at="2022-09-07T12:08:06 EDT" finished-at="2022-09-07T12:08:10 EDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:medicareTestCases.LoginPageTest@34cd072c]" name="setUp" is-config="true" duration-ms="4149" started-at="2022-09-07T12:17:21 EDT" finished-at="2022-09-07T12:17:25 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:medicareTestCases.LoginPageTest@27a8c74e]" name="loginPageTitleTest" duration-ms="81" started-at="2022-09-07T12:08:10 EDT" finished-at="2022-09-07T12:08:10 EDT">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:medicareTestCases.LoginPageTest@34cd072c]" name="loginPageTitleTest" duration-ms="103" started-at="2022-09-07T12:17:25 EDT" finished-at="2022-09-07T12:17:25 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:medicareTestCases.LoginPageTest@27a8c74e]" name="tearDown" is-config="true" duration-ms="1799" started-at="2022-09-07T12:08:10 EDT" finished-at="2022-09-07T12:08:12 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:medicareTestCases.LoginPageTest@34cd072c]" name="tearDown" is-config="true" duration-ms="1411" started-at="2022-09-07T12:17:25 EDT" finished-at="2022-09-07T12:17:27 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:medicareTestCases.LoginPageTest@27a8c74e]" name="setUp" is-config="true" duration-ms="3679" started-at="2022-09-07T12:08:12 EDT" finished-at="2022-09-07T12:08:15 EDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:medicareTestCases.LoginPageTest@34cd072c]" name="setUp" is-config="true" duration-ms="3980" started-at="2022-09-07T12:17:27 EDT" finished-at="2022-09-07T12:17:31 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:medicareTestCases.LoginPageTest@27a8c74e]" name="loginTest" duration-ms="2082" started-at="2022-09-07T12:08:15 EDT" finished-at="2022-09-07T12:08:17 EDT">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:medicareTestCases.LoginPageTest@34cd072c]" name="loginTest" duration-ms="1945" started-at="2022-09-07T12:17:31 EDT" finished-at="2022-09-07T12:17:33 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:medicareTestCases.LoginPageTest@27a8c74e]" name="tearDown" is-config="true" duration-ms="1177" started-at="2022-09-07T12:08:17 EDT" finished-at="2022-09-07T12:08:19 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:medicareTestCases.LoginPageTest@34cd072c]" name="tearDown" is-config="true" duration-ms="861" started-at="2022-09-07T12:17:33 EDT" finished-at="2022-09-07T12:17:34 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- medicareTestCases.LoginPageTest -->
       <class name="medicareTestCases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:medicareTestCases.HomePageTest@5a8806ef]" name="setUp" is-config="true" duration-ms="8170" started-at="2022-09-07T12:07:56 EDT" finished-at="2022-09-07T12:08:05 EDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:medicareTestCases.HomePageTest@7f13d6e]" name="setUp" is-config="true" duration-ms="7133" started-at="2022-09-07T12:17:13 EDT" finished-at="2022-09-07T12:17:20 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:medicareTestCases.HomePageTest@5a8806ef]" name="verifyHomePageTitleTest" duration-ms="32" started-at="2022-09-07T12:08:05 EDT" finished-at="2022-09-07T12:08:05 EDT">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:medicareTestCases.HomePageTest@7f13d6e]" name="verifyHomePageTitleTest" duration-ms="54" started-at="2022-09-07T12:17:20 EDT" finished-at="2022-09-07T12:17:20 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:medicareTestCases.HomePageTest@5a8806ef]" name="tearDown" is-config="true" duration-ms="1343" started-at="2022-09-07T12:08:05 EDT" finished-at="2022-09-07T12:08:06 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:medicareTestCases.HomePageTest@7f13d6e]" name="tearDown" is-config="true" duration-ms="1090" started-at="2022-09-07T12:17:20 EDT" finished-at="2022-09-07T12:17:21 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- medicareTestCases.HomePageTest -->
       <class name="medicareTestCases.SignupPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:medicareTestCases.SignupPageTest@2d8f65a4]" name="setUp" is-config="true" duration-ms="2789" started-at="2022-09-07T12:08:19 EDT" finished-at="2022-09-07T12:08:21 EDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:medicareTestCases.SignupPageTest@7a1ebcd8]" name="setUp" is-config="true" duration-ms="2779" started-at="2022-09-07T12:17:34 EDT" finished-at="2022-09-07T12:17:36 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SignUpPageHeadingTitle()[pri:0, instance:medicareTestCases.SignupPageTest@2d8f65a4]" name="SignUpPageHeadingTitle" duration-ms="30980" started-at="2022-09-07T12:08:21 EDT" finished-at="2022-09-07T12:08:52 EDT">
+        <test-method status="PASS" signature="SignUpPageHeadingTitle()[pri:0, instance:medicareTestCases.SignupPageTest@7a1ebcd8]" name="SignUpPageHeadingTitle" duration-ms="30464" started-at="2022-09-07T12:17:36 EDT" finished-at="2022-09-07T12:18:07 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpPageHeadingTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:medicareTestCases.SignupPageTest@2d8f65a4]" name="tearDown" is-config="true" duration-ms="904" started-at="2022-09-07T12:08:52 EDT" finished-at="2022-09-07T12:08:53 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:medicareTestCases.SignupPageTest@7a1ebcd8]" name="tearDown" is-config="true" duration-ms="1152" started-at="2022-09-07T12:18:07 EDT" finished-at="2022-09-07T12:18:08 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
